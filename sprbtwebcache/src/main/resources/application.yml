@@ -1,0 +1,16 @@
+logging:
+    level:
+        org.pub: DEBUG
+
+spring:
+    #cache.type: ehcache
+    #cache.ehcache.config: classpath:ehcache.xml
+    redis.host: 115.29.110.144
+    redis.password: foobared  
+    redis.port: 6379 # connection port  
+    redis.pool.max-idle: 8 # pool settings ...  
+    redis.pool.min-idle: 0  
+    redis.pool.max-active: 8  
+    redis.pool.max-wait: -1  
+    #redis.sentinel.master:  # name of Redis server  
+    #redis.sentinel.nodes:  # comma-separated list of host:port pairs     

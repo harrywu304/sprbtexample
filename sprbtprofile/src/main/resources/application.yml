@@ -1,0 +1,6 @@
+spring:
+    #profiles.active: dev
+    profiles.active: @env.name@
+
+app:
+    nowid: ${wx.appId}now    
